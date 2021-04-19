@@ -1,5 +1,5 @@
 
-name: DORAEMON
+name: LEGENDX
 
 on: push
 
@@ -19,7 +19,7 @@ jobs:
 
         with:
 
-          find: "Queer ♕"
+          find: "Queer"
 
           replace: "DORAEMON"
 
@@ -35,6 +35,6 @@ jobs:
 
           repository: .
 
-          commit_user_name: uditvarshney001
+          commit_user_name: LEGENDXOP
 
-          commit_user_email: uditvarshney5445@gmail.com
+          commit_user_email: legendxx08377@gmail.com
