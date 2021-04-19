@@ -1,4 +1,4 @@
-# This file is part of Queer ♕ (Telegram Bot)
+# This file is part of DORAEMON (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -26,7 +26,7 @@ from DaisyX.versions import DB_STRUCTURE_VER
 async def notify_bot_owner(old_ver, new_ver):
     await bot.send_message(
         OWNER_ID,
-        f"Queer ♕ database structure was updated from <code>{old_ver}</code> to <code>{new_ver}</code>",
+        f"DORAEMON database structure was updated from <code>{old_ver}</code> to <code>{new_ver}</code>",
     )
 
 

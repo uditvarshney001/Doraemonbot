@@ -109,7 +109,7 @@ async def _(event):
     if not event.chat_id in en_chats:
         en_chats.append(event.chat_id)
         await event.reply("English only AI activated!")
-    await event.reply("Queer ♕AI is already enabled for this chat!")
+    await event.reply("DORAEMONAI is already enabled for this chat!")
     return ""
 
 
@@ -132,9 +132,9 @@ async def _(event):
         sql.set_ses(chat.id, ses_id, expires)
         if event.chat_id in en_chats:
             en_chats.remove(event.chat_id)
-        await event.reply("Queer ♕ AI successfully enabled for this chat!")
+        await event.reply("DORAEMON AI successfully enabled for this chat!")
         return
-    await event.reply("Queer ♕ AI is already enabled for this chat!")
+    await event.reply("DORAEMON AI is already enabled for this chat!")
     return ""
 
 
@@ -150,12 +150,12 @@ async def _(event):
     await tbot.get_entity(send)
     is_chat = sql.is_chat(chat.id)
     if not is_chat:
-        await event.reply("Queer ♕ AI isn't enabled here in the first place!")
+        await event.reply("DORAEMON AI isn't enabled here in the first place!")
         return ""
     if event.chat_id in en_chats:
         en_chats.remove(event.chat_id)
     sql.rem_chat(chat.id)
-    await event.reply("Queer ♕ AI disabled successfully!")
+    await event.reply("DORAEMON AI disabled successfully!")
 
 
 @tbot.on(events.NewMessage(pattern=None))
@@ -288,22 +288,22 @@ async def _(event):
 
 __help__ = """
 <b> Chatbot </b>
-<i> Presenting Queer ♕ AI 1.0. The only AI system which can detect & reply up to 200 languages </i>
+<i> Presenting DORAEMON AI 1.0. The only AI system which can detect & reply up to 200 languages </i>
 
  - /chatbot <i>ON/OFF</i>: Enables and disables AI Chat mode (EXCLUSIVE)
-<b>Queer ♕ can detect and reply upto 200 languages by now</b>
+<b>DORAEMON can detect and reply upto 200 languages by now</b>
  - /chatbot EN : Enables English only chatbot
  
 <b> Lydia (Stopped) </b>
-<i> Presenting Queer ♕'S Lydia, Exclusive chat feature detects up to 200 languages & reply using Lydia AI</i>
+<i> Presenting DORAEMON'S Lydia, Exclusive chat feature detects up to 200 languages & reply using Lydia AI</i>
 
  - /addlydia: Activates lydia on your group
-<b>Queer ♕ AI can detect and reply upto 200 languages by now</b>
+<b>DORAEMON AI can detect and reply upto 200 languages by now</b>
  - /enlydia : Enables English only chat AI
  - /rmlydia : Deactivates lydia on your group (UNSTABLE)
  
 <b> Assistant </b>
- - /ask <i>question</i>: Ask question from Queer ♕
+ - /ask <i>question</i>: Ask question from DORAEMON
  - /ask <i> reply to voice note</i>: Get voice reply
  
 <i> Lydia AI has stopped their chatbot API services. Check @Intellivoid </i>

@@ -163,7 +163,7 @@ async def __import__(chat_id, data):
 __mod_name__ = "Languages"
 
 __help__ = """
-This module is dedicated towards utlising Queer ♕'s localization feature! You can also <a href='https://crowdin.com/project/QueerAIBot'>contribute</a> for improving localization in Daisy!
+This module is dedicated towards utlising DORAEMON's localization feature! You can also <a href='https://crowdin.com/project/QueerAIBot'>contribute</a> for improving localization in Daisy!
 
 <b>Available commands:</b>
 - /lang: Shows a list of avaible languages

@@ -1,4 +1,4 @@
-# This file is part of Queer ♕ (Telegram Bot)
+# This file is part of DORAEMON (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -56,7 +56,7 @@ def catch_redis_error(**dec_kwargs):
                         SENT.append(chat_id)
                 # Alert bot owner
                 if OWNER_ID not in SENT:
-                    text = "Queer ♕ panic: Got redis error"
+                    text = "DORAEMON panic: Got redis error"
                     if await bot.send_message(OWNER_ID, text):
                         SENT.append(OWNER_ID)
                 log.error(RedisError, exc_info=True)

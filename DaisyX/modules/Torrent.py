@@ -52,11 +52,11 @@ async def _(event):
     await tbot.edit_message(
         chatid,
         msgid,
-        "Queer ♕ found some torrents for you. Take a look 👇",
+        "DORAEMON found some torrents for you. Take a look 👇",
         buttons=[
             [
                 Button.inline(
-                    "📤 Get Torrents from Queer ♕'s API",
+                    "📤 Get Torrents from DORAEMON's API",
                     data=f"torrent-{sender}|{search}|{index}|{chatid}|{msgid}",
                 )
             ],
@@ -172,7 +172,7 @@ async def paginate_prevtorrent(event):
     try:
         results = requests.get(url).json()
     except Exception as e:
-        await event.reply("Sorry, Queer ♕ Cant found any torrents for that word")
+        await event.reply("Sorry, DORAEMON Cant found any torrents for that word")
         print(e)
         return
     vector = len(results)
@@ -314,7 +314,7 @@ async def torrentstop(event):
     await tbot.edit_message(
         chatid,
         msgid,
-        "Thanks for using.\n❤️ from [Queer ♕](t.me/QueerAIBot) !",
+        "Thanks for using.\n❤️ from [DORAEMON](t.me/QueerAIBot) !",
         link_preview=False,
     )
 

@@ -12,7 +12,7 @@ from telethon import events
 from DaisyX.services.telethon import tbot as borg
 
 telegraph = Telegraph()
-r = telegraph.create_account(short_name="Queer ♕")
+r = telegraph.create_account(short_name="DORAEMON")
 auth_url = r["auth_url"]
 
 # Will change later

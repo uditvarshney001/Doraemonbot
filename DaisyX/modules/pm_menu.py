@@ -86,7 +86,7 @@ async def get_start_func(message, strings, edit=False):
     )
     buttons.add(
         InlineKeyboardButton(
-            "Add Queer ♕ to your group",
+            "Add DORAEMON to your group",
             url=f"https://telegram.me/QueerAIBot?startgroup=true",
         )
     )

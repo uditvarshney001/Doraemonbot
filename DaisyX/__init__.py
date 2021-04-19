@@ -26,7 +26,7 @@ from DaisyX.utils.logger import log
 from DaisyX.versions import DAISY_VERSION
 
 log.info("----------------------")
-log.info("|      Queer ♕      |")
+log.info("|      DORAEMON      |")
 log.info("----------------------")
 log.info("Version: " + DAISY_VERSION)
 

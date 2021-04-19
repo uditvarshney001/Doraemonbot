@@ -2,7 +2,7 @@
 echo "
 *********** STARTING DEPLOY ***********
 
-Queer ♕ -Base Aiogram
+DORAEMON -Base Aiogram
 (C) 2020-2021 by @NeuroticAssociation
 Support Chat is @QueerAIBotSupport.
 
@@ -30,13 +30,13 @@ ech_final () {
     echo "
     
 =++---------------------------------------------++=
-Queer ♕. Deployed Successfully
+DORAEMON. Deployed Successfully
 
  ***************************
  * |Q| |u| |e| |e| |r| |♕| *
  ******************* v1.0 ** 
 
-Thanks for deploying Queer ♕.
+Thanks for deploying DORAEMON.
 (C) 2020-2021 by @NeuroticAssociation
 Support Chat is @QueerAIBotSupport.
 =++---------------------------------------------++=

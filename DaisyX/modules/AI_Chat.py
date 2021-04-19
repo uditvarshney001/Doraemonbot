@@ -60,7 +60,7 @@ async def hmm(_, message):
             await lel.edit("Daisy AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"Queer ♕ AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"DORAEMON AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
@@ -70,7 +70,7 @@ async def hmm(_, message):
             await lel.edit("Daisy AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"Queer ♕ AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"DORAEMON AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -263,7 +263,7 @@ async def inuka(client, message):
 
 
 @daisyx.on_message(
-    filters.regex("Queer ♕|Queer|queer|veracity|veracitymusic")
+    filters.regex("DORAEMON|Queer|queer|veracity|veracitymusic")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded

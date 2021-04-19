@@ -137,7 +137,7 @@ STRINGS:
     # /delwarns
     purged_warns: "{admin} reset <code>{num}</code> warns of {user} in <b>{chat_title}</b>!"
     usr_no_wrn: "{user} doesn't have any warns to reset."
-    rst_wrn_sofi: 'Queer ♕ never had warns to reset.'
+    rst_wrn_sofi: 'DORAEMON never had warns to reset.'
     not_digit: Warnlimits should be digits!
 
     # /warnmode
@@ -189,8 +189,8 @@ STRINGS:
     emoji_not_allowed: "I'm sorry, but admin roles can't have emojis 😞"
 
   pm_menu:
-    start_hi_group: 'Hey there! My name is Queer ♕'
-    start_hi: "Hey there ! My name is <b>Queer ♕.</b>\n 
+    start_hi_group: 'Hey there! My name is DORAEMON'
+    start_hi: "Hey there ! My name is <b>DORAEMON.</b>\n 
     \nA Powerful Telegram Probot with a lot of Special Features !!
 
 \nYou can find my list of available commands with /help.
@@ -199,12 +199,12 @@ STRINGS:
     btn_source: "Music Channel 🎶"
     btn_help: "Help ❔"
     btn_lang: "🇺🇸 Language"
-    btn_channel: "Queer ♕ Updates"
+    btn_channel: "DORAEMON Updates"
     btn_group_help: "Help"
     back: Back
 
     # /help
-    help_header: "Hi there! My name is <b>Queer ♕</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you"
+    help_header: "Hi there! My name is <b>DORAEMON</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you"
     click_btn: Click here
 
   disable:
@@ -556,7 +556,7 @@ STRINGS:
     big_file: Only files under 50 MB are supported!
     started_importing: Importing started! Please wait...
     bad_file: Bad file! Expected <code>'general'</code> column.
-    file_version_so_new: Exported file version is newer than what Queer ♕ currently supports!
+    file_version_so_new: Exported file version is newer than what DORAEMON currently supports!
     imports_locked: Please wait %s before using imports again!
     import_done: Import done!
   restrictions:

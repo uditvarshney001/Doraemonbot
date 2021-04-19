@@ -57,28 +57,28 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("Queer ♕ AI Already Activated In This Chat")
+            await lel.edit("DORAEMON AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"Queer ♕ AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"DORAEMON AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Queer ♕ AI Was Not Activated In This Chat")
+            await lel.edit("DORAEMON AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"Queer ♕ AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"DORAEMON AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
         if not chat_id in en_chats:
             en_chats.append(chat_id)
-            await message.reply_text("Queer ♕ English AI chat Enabled!")
+            await message.reply_text("DORAEMON English AI chat Enabled!")
             return
-        await message.reply_text("Queer ♕ AI Chat Is Already Disabled.")
+        await message.reply_text("DORAEMON AI Chat Is Already Disabled.")
         message.continue_propagation()
     else:
         await message.reply_text(
@@ -99,20 +99,20 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat_t(int(message.chat.id))
         if not lol:
-            await lel.edit("Queer ♕ AI Already Activated In This Chat")
+            await lel.edit("DORAEMON AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"Queer ♕ AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"DORAEMON AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat_t(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Queer ♕ AI Was Not Activated In This Chat")
+            await lel.edit("DORAEMON AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"Queer ♕ AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"DORAEMON AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":

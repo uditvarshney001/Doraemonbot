@@ -1,5 +1,5 @@
 
-<h1 align="center"><b>❤️ Queer ♕︎  ❤️</b></h1>
+<h1 align="center"><b>❤️ DORAEMON︎  ❤️</b></h1>
 
 <h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
 <p align='center'>
@@ -17,7 +17,7 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
-> ⭐️ Thanks to everyone who starred Queer ♕︎, That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone who starred DORAEMON︎, That is the greatest pleasure we have !
 
 ### The first AioGram based modified groupmanagement bot fully optimized for heroku deploys
 ### 
@@ -97,10 +97,10 @@ This repo was just revamped to suit an Anime-centric & comedy loving community. 
 
 All other credits mentioned on top of scripts
 
-Anything missing kindly let us know at [Queer ♕︎](https://t.me/QueerAIBotSupport) or simply submit a pull request on the readme.
+Anything missing kindly let us know at [DORAEMON︎](https://t.me/QueerAIBotSupport) or simply submit a pull request on the readme.
 
-# Queer ♕︎ the telegram Bot Project
-Queer ♕︎ (Base AioGram)
+# DORAEMON︎ the telegram Bot Project
+DORAEMON︎ (Base AioGram)
 
 
 ## Contributors

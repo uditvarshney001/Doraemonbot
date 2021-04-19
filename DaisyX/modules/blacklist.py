@@ -200,7 +200,7 @@ async def _(event):
 
 
 __help__ = """
-<b> Queer ♕'s filters are the blacklist too </b>
+<b> DORAEMON's filters are the blacklist too </b>
  - /addfilter [trigger] Select action: blacklists the trigger
  - /delfilter [trigger] : stop blacklisting a certain blacklist trigger
  - /filters: list all active blacklist filters

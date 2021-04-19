@@ -125,7 +125,7 @@ def _check_member(client, message):
                     )
                 except ChatAdminRequired:
                     sent_message.edit(
-                        "❗ **Queer ♕ is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
+                        "❗ **DORAEMON is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
                     )
 
             except ChatAdminRequired:
@@ -195,7 +195,7 @@ def config(client, message):
 
 __help__ = """
 <b>Force Subscribe</b>
-✪ Queer ♕ can mute members who are not subscribed your channel until they subscribe
+✪ DORAEMON can mute members who are not subscribed your channel until they subscribe
 ✪ When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 
 <b>Setup</b>

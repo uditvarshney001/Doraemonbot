@@ -32,7 +32,7 @@ async def inline_handler(event):
     query = event.text
     if not query:
         results = builder.article(
-            title="Hello, I'm Queer ♕! Touch for help!",
+            title="Hello, I'm DORAEMON! Touch for help!",
             text=f"Wonder What All You Can Do With Me? Click Below To Know More.",
             buttons=custom.Button.inline("Explore!", data="explore"),
         )

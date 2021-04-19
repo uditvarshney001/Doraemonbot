@@ -161,12 +161,12 @@ async def _(event):
         sql.set_ses(chat.id, ses_id, expires)
         if not event.chat_id in en_chats:            
             en_chats.append(event.chat_id)
-        await event.reply("Queer ♕ English AI successfully enabled for this chat!")
+        await event.reply("DORAEMON English AI successfully enabled for this chat!")
         return
     if not event.chat_id in en_chats:            
         en_chats.append(event.chat_id)
         await event.reply("English only AI activated!")
-    await event.reply("Queer ♕ AI is already enabled for this chat!")
+    await event.reply("DORAEMON AI is already enabled for this chat!")
     return ""
 
 
@@ -319,23 +319,23 @@ async def _(client,message):
 
 __help__ = """
 <b> Chatbot </b>
-<i> PRESENTING Queer ♕ AI 1.0. THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES </i>
+<i> PRESENTING DORAEMON AI 1.0. THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES </i>
 
  - /chatbot <i>ON/OFF</i>: Enables and disables AI Chat mode (EXCLUSIVE)
-*Queer ♕ can detect and reply upto 200 languages by now*
+*DORAEMON can detect and reply upto 200 languages by now*
  - /chatbot EN : Enables English only chatbot
  
 <b> Lydia </b>
-<i> PRESENTING Queer ♕'S LYDIA, EXCLUSIVE CHAT FEATURE DETECT UPTO 200 LANGUAGES & REPLY USING LYDIA AI</i>
+<i> PRESENTING DORAEMON'S LYDIA, EXCLUSIVE CHAT FEATURE DETECT UPTO 200 LANGUAGES & REPLY USING LYDIA AI</i>
  
  - /addlydia: Activates lydia on your group
  
-*Queer ♕ AI can detect and reply upto 200 languages by now*
+*DORAEMON AI can detect and reply upto 200 languages by now*
  - /enlydia : Enables English only chat AI
  - /rmlydia : Deactivates lydia on your group (UNSTABLE)
  
 <b> Assistant </b>
- - /ask <i>question</i>: Ask question from Queer ♕
+ - /ask <i>question</i>: Ask question from DORAEMON
  - /ask <i> reply to voice note</i>: Get voice reply
  
 <i> Lydia AI can be unstable sometimes </i>
