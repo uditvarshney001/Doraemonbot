@@ -76,12 +76,12 @@ async def get_start_func(message, strings, edit=False):
     buttons.add(InlineKeyboardButton(strings["btn_help"], callback_data="get_help"))
     buttons.add(
         InlineKeyboardButton(strings["btn_lang"], callback_data="lang_btn"),
-        InlineKeyboardButton(
-            strings["btn_source"], url="https://t.me/GalaxyMusicHub"
-        ),
+        InlineKeyboardButton(strings["btn_source"], url="https://t.me/GalaxyMusicHub"),
     )
     buttons.add(
-        InlineKeyboardButton(strings["btn_channel"], url="https://t.me/QueerAIBotUpdates"),
+        InlineKeyboardButton(
+            strings["btn_channel"], url="https://t.me/QueerAIBotUpdates"
+        ),
         InlineKeyboardButton("Support Grup", url="https://t.me/QueerAIBotSupport"),
     )
     buttons.add(
