@@ -79,9 +79,7 @@ async def get_start_func(message, strings, edit=False):
         InlineKeyboardButton(strings["btn_source"], url="https://t.me/bothousesupport"),
     )
     buttons.add(
-        InlineKeyboardButton(
-            strings["btn_channel"], url="https://t.me/doraemonupdate"
-        ),
+        InlineKeyboardButton(strings["btn_channel"], url="https://t.me/doraemonupdate"),
         InlineKeyboardButton("Support Grup", url="https://t.me/doraemonSupport10"),
     )
     buttons.add(
