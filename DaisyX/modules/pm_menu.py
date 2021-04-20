@@ -76,18 +76,18 @@ async def get_start_func(message, strings, edit=False):
     buttons.add(InlineKeyboardButton(strings["btn_help"], callback_data="get_help"))
     buttons.add(
         InlineKeyboardButton(strings["btn_lang"], callback_data="lang_btn"),
-        InlineKeyboardButton(strings["btn_source"], url="https://t.me/GalaxyMusicHub"),
+        InlineKeyboardButton(strings["btn_source"], url="https://t.me/bothousesupport"),
     )
     buttons.add(
         InlineKeyboardButton(
-            strings["btn_channel"], url="https://t.me/QueerAIBotUpdates"
+            strings["btn_channel"], url="https://t.me/doraemonupdate"
         ),
-        InlineKeyboardButton("Support Grup", url="https://t.me/QueerAIBotSupport"),
+        InlineKeyboardButton("Support Grup", url="https://t.me/doraemonSupport10"),
     )
     buttons.add(
         InlineKeyboardButton(
             "Add DORAEMON to your group",
-            url=f"https://telegram.me/QueerAIBot?startgroup=true",
+            url=f"http://t.me/DoraemonxRobot?startgroup=true",
         )
     )
     # Handle error when user click the button 2 or more times simultaneously
@@ -129,7 +129,7 @@ async def help_cmd(message, strings):
 async def help_cmd_g(message, strings):
     text = strings["btn_group_help"]
     button = InlineKeyboardMarkup().add(
-        InlineKeyboardButton(text=text, url="https://t.me/QueerAIBot?start")
+        InlineKeyboardButton(text=text, url="http://t.me/DoraemonxRobot?start")
     )
     await message.reply(strings["help_header"], reply_markup=button)
 
